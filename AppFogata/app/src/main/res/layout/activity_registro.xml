@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registro">
+
+    <EditText
+        android:id="@+id/usuarioRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="USUARIO"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/nombreRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="NOMBRE"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/apellidoRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="APELLIDO"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/claveRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="CONTRASEÑA"
+        android:inputType="textPassword"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edadRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="EDAD"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="REGISTRO" />
+
+</LinearLayout>

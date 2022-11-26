@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registro"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="189dp"
+        android:layout_height="122dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/registroLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Crear cuenta"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+
+        android:id="@+id/usuarioRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Usuario"
+        android:textAlignment="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/edt_style"/>
+
+    <EditText
+        android:id="@+id/nombreRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Nombre"
+        android:textAlignment="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/edt_style"/>
+    <EditText
+        android:id="@+id/apellidoRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Apellido"
+        android:textAlignment="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/edt_style"/>
+
+    <EditText
+        android:id="@+id/claveRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/edt_style"/>
+
+    <EditText
+        android:id="@+id/edadRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Edad"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/edt_style"/>
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Registrarme"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+</LinearLayout>
